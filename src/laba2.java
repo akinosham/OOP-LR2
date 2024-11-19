@@ -5,7 +5,7 @@ import java.util.Scanner;
 public class laba2 {
     public static void main(String[] args) {
         String correct = "abcdefghijklmnopqrstuv18340";
-        String regex = "^" + correct + "$"; // Добавили якоря ^ и $
+        String regex = "^" + correct + "$";
 
         System.out.println("Введите строку:");
         try (Scanner scl = new Scanner(System.in))
